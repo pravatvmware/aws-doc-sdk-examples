@@ -6,6 +6,13 @@ Purpose
 
 Shows how to implement an AWS Lambda function that handles input from direct
 invocation.
+
+Can use the following event data to invoke the function:
+{
+  "action": "plus",
+  "x": 3,
+  "y": 4
+}
 """
 
 # snippet-start:[python.example_code.lambda.handler.arithmetic]
